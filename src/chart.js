@@ -1,33 +1,22 @@
-var x_data = [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050];
-var y_data_1 = [86,114,106,106,107,111,133,221,783,2478];
-var y_data_2 = [2000,700,200,100,100,100,100,50,25,0];
-
-const defaultData = {
-  labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
-  datasets: [{
-      label: 'A',
-      // backgroundColor: 'rgb(255, 99, 132)',
-      // borderColor: 'rgb(255, 99, 132)',
-      data: [86,114,106,106,107,111,133,221,783,2478]
-  },
-  {
-    label: 'B',
-    data: [2000,700,200,100,100,100,100,50,25,0]
-  }]
-}
-
 window.onload = function () {
-  console.log('window.onload')
 }
 
-function initChart (data = defaultData) {
+function initChart (data = {}) {
   // Draw a line chart with two data sets
   let activePoint = null;
   const canvas = document.getElementById("canvas")
   const ctx = canvas.getContext("2d")
   const options = {
     animation: { duration: 0 },
-    tooltips: { mode: 'nearest' }
+    tooltips: { mode: 'nearest' },
+    scales: {
+      yAxes: [{
+          ticks: {
+              min: 0,
+              max: 1e5
+          }
+      }]
+    }
   }
   window.myChart = Chart.Line(ctx, { data, options });
 
@@ -65,16 +54,41 @@ function initChart (data = defaultData) {
         // convert mouse position to chart y axis value 
         var chartArea = window.myChart.chartArea;
         var yAxis = window.myChart.scales["y-axis-0"];
-        var yValue = map(position.y, chartArea.bottom, chartArea.top, yAxis.min, yAxis.max);
+        var yValue = mapYCoord(position.y, chartArea.bottom, chartArea.top, yAxis.min, yAxis.max);
 
         // update y value of active data point
         data.datasets[datasetIndex].data[activePoint._index] = yValue;
+
+        updateModel()
         window.myChart.update();
     };
+  }
+
+  function updateModel () {
+    const ds = data.datasets[0]
+    const model = fit({
+      x: daysArray(ds.data.length),
+      y: ds.data
+    }, ds.data[ds.data.length - 1] * 1)
+    const samples = model.values(DAYS)
+    data.datasets[1].label = `${data.datasets[0].label} (Model)`
+    data.datasets[1].data = model.values(DAYS)
+  }
+
+  const sel = document.getElementById("selectCountry")
+  sel.onchange = (ev, val) => {
+    if (ev.type !== 'change') return
+    const country = ev.target.value
+    console.log('country', country)
+    countryData(country).then(set => {
+      data.datasets[0] = set
+      updateModel()
+      window.myChart.update()
+    })
   }
 }
 
 // map value to other coordinate system
-function map(value, start1, stop1, start2, stop2) {
+function mapYCoord(value, start1, stop1, start2, stop2) {
   return start2 + (stop2 - start2) * ((value - start1) / (stop1 - start1))
 };

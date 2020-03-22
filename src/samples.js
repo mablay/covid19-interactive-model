@@ -1,7 +1,8 @@
 /** @param {string} country country code ('us', 'cn', ...) */
 async function covid19ByCountry (country) {
-  const path = `/data/${country}.json`
-  const samples = await fetch(path)
+  const url = `/data/${country}.json`
+  // const url = `https://thevirustracker.com/free-api?countryTimeline=${country.toUpperCase()}`
+  const samples = await fetch(url)
     .then(res => res.json())
 
   const timeline = samples.timelineitems[0]

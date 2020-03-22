@@ -1,0 +1,437 @@
+{
+  "countrytimelinedata": [
+      {
+          "info": {
+              "ourid": 60,
+              "title": "Germany",
+              "code": "DE",
+              "source": "https://thevirustracker.com/germany-coronavirus-information-de"
+          }
+      }
+  ],
+  "timelineitems": [
+      {
+          "1/23/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 0,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/24/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 0,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/25/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 0,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/26/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 0,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/27/2020": {
+              "new_daily_cases": 1,
+              "new_daily_deaths": 0,
+              "total_cases": 1,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/28/2020": {
+              "new_daily_cases": 3,
+              "new_daily_deaths": 0,
+              "total_cases": 4,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/29/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 4,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/30/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 4,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "1/31/2020": {
+              "new_daily_cases": 1,
+              "new_daily_deaths": 0,
+              "total_cases": 5,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/1/2020": {
+              "new_daily_cases": 3,
+              "new_daily_deaths": 0,
+              "total_cases": 8,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/2/2020": {
+              "new_daily_cases": 2,
+              "new_daily_deaths": 0,
+              "total_cases": 10,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/3/2020": {
+              "new_daily_cases": 2,
+              "new_daily_deaths": 0,
+              "total_cases": 12,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/4/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 12,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/5/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 12,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/6/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 12,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/7/2020": {
+              "new_daily_cases": 1,
+              "new_daily_deaths": 0,
+              "total_cases": 13,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/8/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 13,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/9/2020": {
+              "new_daily_cases": 1,
+              "new_daily_deaths": 0,
+              "total_cases": 14,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/10/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 14,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/11/2020": {
+              "new_daily_cases": 2,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/12/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 0,
+              "total_deaths": 0
+          },
+          "2/13/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 1,
+              "total_deaths": 0
+          },
+          "2/14/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 1,
+              "total_deaths": 0
+          },
+          "2/15/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 1,
+              "total_deaths": 0
+          },
+          "2/16/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 1,
+              "total_deaths": 0
+          },
+          "2/17/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 1,
+              "total_deaths": 0
+          },
+          "2/18/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 12,
+              "total_deaths": 0
+          },
+          "2/19/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 12,
+              "total_deaths": 0
+          },
+          "2/20/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 12,
+              "total_deaths": 0
+          },
+          "2/21/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 14,
+              "total_deaths": 0
+          },
+          "2/22/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 14,
+              "total_deaths": 0
+          },
+          "2/23/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 14,
+              "total_deaths": 0
+          },
+          "2/24/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 16,
+              "total_recoveries": 14,
+              "total_deaths": 0
+          },
+          "2/25/2020": {
+              "new_daily_cases": 1,
+              "new_daily_deaths": 0,
+              "total_cases": 17,
+              "total_recoveries": 14,
+              "total_deaths": 0
+          },
+          "2/26/2020": {
+              "new_daily_cases": 10,
+              "new_daily_deaths": 0,
+              "total_cases": 27,
+              "total_recoveries": 15,
+              "total_deaths": 0
+          },
+          "2/27/2020": {
+              "new_daily_cases": 19,
+              "new_daily_deaths": 0,
+              "total_cases": 46,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "2/28/2020": {
+              "new_daily_cases": 2,
+              "new_daily_deaths": 0,
+              "total_cases": 48,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "2/29/2020": {
+              "new_daily_cases": 31,
+              "new_daily_deaths": 0,
+              "total_cases": 79,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "3/1/2020": {
+              "new_daily_cases": 51,
+              "new_daily_deaths": 0,
+              "total_cases": 130,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "3/2/2020": {
+              "new_daily_cases": 29,
+              "new_daily_deaths": 0,
+              "total_cases": 159,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "3/3/2020": {
+              "new_daily_cases": 37,
+              "new_daily_deaths": 0,
+              "total_cases": 196,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "3/4/2020": {
+              "new_daily_cases": 66,
+              "new_daily_deaths": 0,
+              "total_cases": 262,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "3/5/2020": {
+              "new_daily_cases": 220,
+              "new_daily_deaths": 0,
+              "total_cases": 482,
+              "total_recoveries": 16,
+              "total_deaths": 0
+          },
+          "3/6/2020": {
+              "new_daily_cases": 188,
+              "new_daily_deaths": 0,
+              "total_cases": 670,
+              "total_recoveries": 17,
+              "total_deaths": 0
+          },
+          "3/7/2020": {
+              "new_daily_cases": 129,
+              "new_daily_deaths": 0,
+              "total_cases": 799,
+              "total_recoveries": 18,
+              "total_deaths": 0
+          },
+          "3/8/2020": {
+              "new_daily_cases": 241,
+              "new_daily_deaths": 0,
+              "total_cases": 1040,
+              "total_recoveries": 18,
+              "total_deaths": 0
+          },
+          "3/9/2020": {
+              "new_daily_cases": 136,
+              "new_daily_deaths": 2,
+              "total_cases": 1176,
+              "total_recoveries": 18,
+              "total_deaths": 2
+          },
+          "3/10/2020": {
+              "new_daily_cases": 281,
+              "new_daily_deaths": 0,
+              "total_cases": 1457,
+              "total_recoveries": 18,
+              "total_deaths": 2
+          },
+          "3/11/2020": {
+              "new_daily_cases": 451,
+              "new_daily_deaths": 1,
+              "total_cases": 1908,
+              "total_recoveries": 25,
+              "total_deaths": 3
+          },
+          "3/12/2020": {
+              "new_daily_cases": 170,
+              "new_daily_deaths": 0,
+              "total_cases": 2078,
+              "total_recoveries": 25,
+              "total_deaths": 3
+          },
+          "3/13/2020": {
+              "new_daily_cases": 1597,
+              "new_daily_deaths": 4,
+              "total_cases": 3675,
+              "total_recoveries": 46,
+              "total_deaths": 7
+          },
+          "3/14/2020": {
+              "new_daily_cases": 910,
+              "new_daily_deaths": 2,
+              "total_cases": 4585,
+              "total_recoveries": 46,
+              "total_deaths": 9
+          },
+          "3/15/2020": {
+              "new_daily_cases": 1210,
+              "new_daily_deaths": 2,
+              "total_cases": 5795,
+              "total_recoveries": 46,
+              "total_deaths": 11
+          },
+          "3/16/2020": {
+              "new_daily_cases": 1477,
+              "new_daily_deaths": 6,
+              "total_cases": 7272,
+              "total_recoveries": 67,
+              "total_deaths": 17
+          },
+          "3/17/2020": {
+              "new_daily_cases": 1985,
+              "new_daily_deaths": 7,
+              "total_cases": 9257,
+              "total_recoveries": 67,
+              "total_deaths": 24
+          },
+          "3/18/2020": {
+              "new_daily_cases": 3070,
+              "new_daily_deaths": 4,
+              "total_cases": 12327,
+              "total_recoveries": 105,
+              "total_deaths": 28
+          },
+          "3/19/2020": {
+              "new_daily_cases": 2993,
+              "new_daily_deaths": 16,
+              "total_cases": 15320,
+              "total_recoveries": 113,
+              "total_deaths": 44
+          },
+          "3/20/2020": {
+              "new_daily_cases": 4528,
+              "new_daily_deaths": 23,
+              "total_cases": 19848,
+              "total_recoveries": 180,
+              "total_deaths": 67
+          },
+          "3/21/2020": {
+              "new_daily_cases": 2365,
+              "new_daily_deaths": 17,
+              "total_cases": 22213,
+              "total_recoveries": 233,
+              "total_deaths": 84
+          },
+          "3/22/2020": {
+              "new_daily_cases": 0,
+              "new_daily_deaths": 0,
+              "total_cases": 22213,
+              "total_recoveries": 233,
+              "total_deaths": 84
+          },
+          "stat": "ok"
+      }
+  ]
+}

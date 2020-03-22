@@ -7,10 +7,24 @@
   <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
-  <h3>COVID19 Interactive Model</h3>
+  <div class="top-bar">
+    <div class="page-title">
+      <h3>COVID19 Interactive Model</h3>
+    </div>
+    <div class="tools">
+      <select name="country" id="selectCountry">
+        <option value="de" selected>Germany</option>
+        <option value="it">Italy</option>
+        <option value="cn">China</option>
+      </select>
+    </div>
+
+  </div>
   <canvas id="canvas"></canvas>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="/lib/ml-levenberg-marquardt.js"></script>
   <script src="/src/samples.js"></script>
+  <script src="/src/model.js"></script>
   <script src="/src/chart.js"></script>
   <script src="/src/script.js"></script>
 </body>
