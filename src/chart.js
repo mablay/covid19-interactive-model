@@ -1,6 +1,3 @@
-window.onload = function () {
-}
-
 function initChart (data = {}) {
   // Draw a line chart with two data sets
   let activePoint = null;
@@ -69,7 +66,7 @@ function initChart (data = {}) {
     const model = fit({
       x: daysArray(ds.data.length),
       y: ds.data
-    }, ds.data[ds.data.length - 1] * 1)
+    }, ds.data[ds.data.length - 1] * 1.1)
     const samples = model.values(DAYS)
     data.datasets[1].label = `${data.datasets[0].label} (Model)`
     data.datasets[1].data = model.values(DAYS)

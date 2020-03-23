@@ -15,49 +15,48 @@ script.js:42 parameterError 72502.48263760556
 script.js:43 iterations 100
 
 */
-
-Promise.all([
-  covid19ByCountry('de')
-  // covid19ByCountry('cn')
-  // covid19ByCountry('it')
-]).then(stats => {
-  const days = daysArray(DAYS)
-  console.log(stats)
-  const data = {
-    labels: days,
-    datasets: stats.map(s => ({
-      label: s.country,
-      fill: false,
-      borderColor: `hsl(${Math.random() * 100}, 100%, 50%)`,
-      data: s.samples.map(s => s.total_cases)
-    }))
-  }
-  let i = data.datasets.length
-  while (i--) {
-    const sets = data.datasets
-    const ds = sets[i]
-    const model = fit({
-      x: daysArray(ds.data.length),
-      y: ds.data
-    })
-    const samples = model.values(DAYS)
-    console.log('parameterValues', model.fittedParams.parameterValues)
-    console.log('parameterError', model.fittedParams.parameterError)
-    console.log('iterations', model.fittedParams.iterations)
-    
-    sets.push({
-      label: `${ds.label} (Model)`,
-      pointRadius: 0,
-      pointHitRadius: 0,
-      pointHoverRadius: 0,
-      borderWidth: 1,
-      fill: false,
-      borderColor: `hsl(${Math.random() * 360}, 100%, 40%)`,
-      data: model.values(DAYS)
-    })
-  }
-  initChart(data)
-})
+window.onload = function () {
+  const country = document.getElementById("selectCountry").value
+  console.log('selectedcountry', country)
+  covid19ByCountry(country).then(stats => {
+    const days = daysArray(DAYS)
+    console.log(stats)
+    const data = {
+      labels: days,
+      datasets: [{
+        label: stats.country,
+        fill: false,
+        borderColor: `hsl(${Math.random() * 100}, 100%, 50%)`,
+        data: stats.samples.map(s => s.total_cases)
+      }]
+    }
+    let i = data.datasets.length
+    while (i--) {
+      const sets = data.datasets
+      const ds = sets[i]
+      const model = fit({
+        x: daysArray(ds.data.length),
+        y: ds.data
+      })
+      const samples = model.values(DAYS)
+      console.log('parameterValues', model.fittedParams.parameterValues)
+      console.log('parameterError', model.fittedParams.parameterError)
+      console.log('iterations', model.fittedParams.iterations)
+      
+      sets.push({
+        label: `${ds.label} (Model)`,
+        pointRadius: 0,
+        pointHitRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 1,
+        fill: false,
+        borderColor: `hsl(${Math.random() * 360}, 100%, 40%)`,
+        data: model.values(DAYS)
+      })
+    }
+    initChart(data)
+  })
+}
 
 async function countryData (countryCode) {
   const s = await covid19ByCountry(countryCode)
