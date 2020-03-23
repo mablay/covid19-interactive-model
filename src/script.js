@@ -26,6 +26,9 @@ window.onload = function () {
       datasets: [{
         label: stats.country,
         fill: false,
+        showLine: false,
+        pointRadius: 5,
+        pointBackgroundColor: 'red',
         borderColor: `hsl(${Math.random() * 100}, 100%, 50%)`,
         data: stats.samples.map(s => s.total_cases)
       }]
@@ -64,6 +67,9 @@ async function countryData (countryCode) {
     label: s.country,
     fill: false,
     borderColor: `hsl(${Math.random() * 100}, 100%, 50%)`,
+    pointRadius: 5,
+    pointBackgroundColor: 'red',
+    showLine: false,
     data: s.samples.map(s => s.total_cases)
   }
 }
