@@ -34,6 +34,11 @@ function initChart (data = {}) {
     // release grabbed point, stop dragging
     activePoint = null;
     canvas.onpointermove = null;
+    // update y-axis bounds
+    const max = paramStore[0] * 1.1 || 1e7
+    console.log('chart max', max, paramStore[0])
+    window.myChart.options.scales.yAxes[0].ticks.max = max
+    window.myChart.update()
   }
 
   // --- DRAG ---
@@ -66,7 +71,10 @@ function initChart (data = {}) {
     const model = fit({
       x: daysArray(ds.data.length),
       y: ds.data
-    }, ds.data[ds.data.length - 1] * 1.1)
+    // }, ds.data[ds.data.length - 1] * 1.1)
+    }, ...paramStore)
+    paramStore = model.fittedParams.parameterValues
+    console.log('[chart] update model', paramStore)
     const samples = model.values(DAYS)
     data.datasets[1].label = `${data.datasets[0].label} (Model)`
     data.datasets[1].data = model.values(DAYS)
@@ -76,10 +84,13 @@ function initChart (data = {}) {
   sel.onchange = (ev, val) => {
     if (ev.type !== 'change') return
     const country = ev.target.value
+
     console.log('country', country)
     countryData(country).then(set => {
       data.datasets[0] = set
+      paramStore = [1e6, 4, 6]
       updateModel()
+      window.myChart.options.scales.yAxes[0].ticks.max = paramStore[0] * 1.1
       window.myChart.update()
     })
   }

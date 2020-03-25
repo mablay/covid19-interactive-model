@@ -2,10 +2,10 @@
     "countrytimelinedata": [
         {
             "info": {
-                "ourid": 142,
-                "title": "South Africa",
-                "code": "ZA",
-                "source": "https://thevirustracker.com/south-africa-coronavirus-information-za"
+                "ourid": 32,
+                "title": "Colombia",
+                "code": "CO",
+                "source": "https://thevirustracker.com/colombia-coronavirus-information-co"
             }
         }
     ],
@@ -306,14 +306,14 @@
                 "total_deaths": 0
             },
             "3/5/2020": {
-                "new_daily_cases": 1,
+                "new_daily_cases": 0,
                 "new_daily_deaths": 0,
-                "total_cases": 1,
+                "total_cases": 0,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/6/2020": {
-                "new_daily_cases": 0,
+                "new_daily_cases": 1,
                 "new_daily_deaths": 0,
                 "total_cases": 1,
                 "total_recoveries": 0,
@@ -327,116 +327,116 @@
                 "total_deaths": 0
             },
             "3/8/2020": {
-                "new_daily_cases": 2,
+                "new_daily_cases": 0,
                 "new_daily_deaths": 0,
-                "total_cases": 3,
+                "total_cases": 1,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/9/2020": {
                 "new_daily_cases": 0,
                 "new_daily_deaths": 0,
-                "total_cases": 3,
+                "total_cases": 1,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/10/2020": {
-                "new_daily_cases": 4,
+                "new_daily_cases": 2,
                 "new_daily_deaths": 0,
-                "total_cases": 7,
+                "total_cases": 3,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/11/2020": {
                 "new_daily_cases": 6,
                 "new_daily_deaths": 0,
-                "total_cases": 13,
+                "total_cases": 9,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/12/2020": {
-                "new_daily_cases": 4,
+                "new_daily_cases": 0,
                 "new_daily_deaths": 0,
-                "total_cases": 17,
+                "total_cases": 9,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/13/2020": {
-                "new_daily_cases": 7,
+                "new_daily_cases": 4,
                 "new_daily_deaths": 0,
-                "total_cases": 24,
+                "total_cases": 13,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/14/2020": {
-                "new_daily_cases": 14,
+                "new_daily_cases": 9,
                 "new_daily_deaths": 0,
-                "total_cases": 38,
+                "total_cases": 22,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/15/2020": {
-                "new_daily_cases": 13,
+                "new_daily_cases": 12,
                 "new_daily_deaths": 0,
-                "total_cases": 51,
+                "total_cases": 34,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/16/2020": {
-                "new_daily_cases": 11,
+                "new_daily_cases": 20,
                 "new_daily_deaths": 0,
-                "total_cases": 62,
+                "total_cases": 54,
                 "total_recoveries": 0,
                 "total_deaths": 0
             },
             "3/17/2020": {
-                "new_daily_cases": 0,
+                "new_daily_cases": 11,
                 "new_daily_deaths": 0,
-                "total_cases": 62,
-                "total_recoveries": 0,
+                "total_cases": 65,
+                "total_recoveries": 1,
                 "total_deaths": 0
             },
             "3/18/2020": {
-                "new_daily_cases": 54,
+                "new_daily_cases": 28,
                 "new_daily_deaths": 0,
-                "total_cases": 116,
-                "total_recoveries": 0,
+                "total_cases": 93,
+                "total_recoveries": 1,
                 "total_deaths": 0
             },
             "3/19/2020": {
-                "new_daily_cases": 34,
+                "new_daily_cases": 9,
                 "new_daily_deaths": 0,
-                "total_cases": 150,
-                "total_recoveries": 0,
+                "total_cases": 102,
+                "total_recoveries": 1,
                 "total_deaths": 0
             },
             "3/20/2020": {
-                "new_daily_cases": 52,
+                "new_daily_cases": 26,
                 "new_daily_deaths": 0,
-                "total_cases": 202,
-                "total_recoveries": 0,
+                "total_cases": 128,
+                "total_recoveries": 1,
                 "total_deaths": 0
             },
             "3/21/2020": {
-                "new_daily_cases": 38,
+                "new_daily_cases": 68,
                 "new_daily_deaths": 0,
-                "total_cases": 240,
-                "total_recoveries": 0,
+                "total_cases": 196,
+                "total_recoveries": 1,
                 "total_deaths": 0
             },
             "3/22/2020": {
-                "new_daily_cases": 34,
-                "new_daily_deaths": 0,
-                "total_cases": 274,
-                "total_recoveries": 0,
-                "total_deaths": 0
+                "new_daily_cases": 35,
+                "new_daily_deaths": 2,
+                "total_cases": 231,
+                "total_recoveries": 3,
+                "total_deaths": 2
             },
             "3/23/2020": {
                 "new_daily_cases": 0,
                 "new_daily_deaths": 0,
-                "total_cases": 274,
-                "total_recoveries": 0,
-                "total_deaths": 0
+                "total_cases": 231,
+                "total_recoveries": 3,
+                "total_deaths": 2
             },
             "stat": "ok"
         }

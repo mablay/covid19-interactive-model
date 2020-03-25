@@ -3,18 +3,8 @@ function daysArray (days) {
   return [...Array(days)].map((_, i) => i)
 }
 
-/*
-de:
-parameterValues (3) [971,952, 4.2, 35.5]
-script.js:32 parameterError 6411.169914410728
-script.js:33 iterations 5
+let paramStore = {}
 
-cn:
-parameterValues (3) [80,938, 4.5, 16.7]
-script.js:42 parameterError 72502.48263760556
-script.js:43 iterations 100
-
-*/
 window.onload = function () {
   const country = document.getElementById("selectCountry").value
   console.log('selectedcountry', country)
@@ -42,6 +32,7 @@ window.onload = function () {
         y: ds.data
       })
       const samples = model.values(DAYS)
+      paramStore = model.fittedParams.parameterValues
       console.log('parameterValues', model.fittedParams.parameterValues)
       console.log('parameterError', model.fittedParams.parameterError)
       console.log('iterations', model.fittedParams.iterations)
